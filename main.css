@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#titleHolder{
+  position: absolute;
+  width: 100vw;
+  bottom: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title{
+  padding-top: 100px;
+  font-family: 'Comfortaa', cursive;
+  position: relative;
+  z-index: 10;
+  color: rgb(300, 30, 100);
+  font-size: 2rem;
+}
+
+#subtitle{
+  font-family: 'Comfortaa', cursive;
+  position: relative;
+  z-index: 10;
+  color: rgb(300, 30, 100);
+  font-size: 1rem;
+}

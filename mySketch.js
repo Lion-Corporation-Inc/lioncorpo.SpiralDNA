@@ -5,7 +5,7 @@ let bg = 40;
 function setup() {
 	w = windowWidth;
 	h = windowHeight;
-	num = windowWidth/1.5;
+	num = windowWidth/4;
 	createCanvas(windowWidth, windowHeight);
 	buildDots();
 	background(20);
